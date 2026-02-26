@@ -16,9 +16,8 @@ st.markdown("""
     <style>
     .main { background-color: #fcfcfc; }
     .stMetric { border: 1px solid #eee; padding: 10px; border-radius: 8px; background: white; }
-    .reportview-container .main .block-container { padding-top: 2rem; }
     </style>
-    """, unsafe_allow_stdio=True)
+    """, unsafe_allow_html=True) # "html", not "stdio"
 
 # -----------------------------
 # 2. Data Model & Engine
