@@ -1,5 +1,4 @@
-pip install streamlit
-streamlit hello
+
 
 # app.py
 import streamlit as st
